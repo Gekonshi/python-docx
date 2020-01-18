@@ -5,7 +5,7 @@
 from __future__ import absolute_import, division, print_function, unicode_literals
 
 from docx.blkcntnr import BlockItemContainer
-from docx.compat import Sequence
+from collections.abc import Sequence
 from docx.enum.section import WD_HEADER_FOOTER
 from docx.shared import lazyproperty
 
